@@ -1,0 +1,1746 @@
+
+body, h1, h2, h3, h4, h5, h6, hr, hr_big, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img {
+    border: medium none;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+input.dialog {
+    border: medium none;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+}
+h1 {
+    font-size: 34px;
+}
+h2 {
+    font-size: 26px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 12px;
+}
+input, label, img, th {
+    vertical-align: middle;
+}
+.font-fixh {
+    color: #f00;
+    font-family: Georgia,Arial;
+    font-size: 16px;
+    font-weight: 700;
+}
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+code, kbd, pre, samp {
+    font-family: courier new,courier,monospace;
+}
+ul, ol, li {
+    list-style: outside none none;
+}
+a {
+    text-decoration: none;
+}
+.hide {
+    display: none;
+}
+.hd_txt {
+    clear: both;
+    height: auto;
+    margin-top: 4px;
+}
+@media (max-width: 480px) {
+html {
+    overflow-x: hidden;
+}
+body {
+    color: #444;
+    font: 12px/1.5 Microsoft YaHei,tahoma,arial,宋体,sans-serif;
+    overflow-x: hidden;
+}
+header {
+    background-color: #f66e00;
+    height: 44px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 9998;
+}
+header s {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+}
+header span {
+    color: #fff;
+    display: inline-block;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    z-index: 10;
+}
+header span img {
+    height: 40px;
+}
+.header_title {
+    padding-top: 10px;
+}
+section {
+    background-color: #e9e8e8;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.banner {
+    margin: 4px auto;
+    text-align: center;
+    width: 98%;
+}
+.banner img {
+    max-height: 100%;
+    max-width: 100%;
+}
+section article {
+    color: #e63c45;
+}
+.bm_input input {
+    color: #999;
+    font-family: Microsoft YaHei;
+    font-size: 0.9rem;
+}
+.wrapper ul li {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.bm_input input {
+    border: 1px solid #999;
+    border-radius: 0;
+}
+.part_div {
+    background-color: #fff;
+    border: 1px solid #b3b3b3;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 98%;
+}
+.zxhd-xc_top {
+    margin: 30px auto 0;
+    width: 310px;
+}
+.zxhd_xc_pic {
+    float: left;
+    text-align: left;
+    width: 80px;
+}
+.zxhd_xc img {
+    height: 72px;
+    width: 80px;
+}
+.zxhd_xc_txt {
+    float: right;
+    width: 210px;
+}
+.zxhd_xc ul {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 300px;
+}
+.zxhd_xc ul li {
+    border-bottom: 1px solid #e9e8e8;
+    height: auto;
+    margin: 20px auto 0;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.zxhd_xc ul li a {
+    text-decoration: none;
+}
+.header_home {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/house.png") no-repeat scroll 0 0 / 100% auto;
+    height: 25px;
+    left: 4px;
+    top: 10px;
+    width: 30px;
+}
+.header_map {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/dingdian.jpg") no-repeat scroll 0 0 / 100% auto;
+    height: 30px;
+    left: 4px;
+    top: 6px;
+    width: 30px;
+}
+.header_list {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/list.png") no-repeat scroll 0 0 / 100% auto;
+    height: 25px;
+    right: 6px;
+    top: 10px;
+    width: 30px;
+}
+header span {
+    display: inline-block;
+    font-size: 1rem;
+}
+section article {
+    font-size: 1.1rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.m_baoming {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 96%;
+}
+.bm_input {
+    float: left;
+    width: 69%;
+}
+.bm_input input {
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    width: 98%;
+}
+.bm_button {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/submit_bm_zc.png") no-repeat scroll 0 0 / 100% 100%;
+    border: 0 none;
+    height: 70px;
+    margin: 8px auto auto 10px;
+    width: 84px;
+}
+.bm_benefits {
+    background-color: #fff;
+    border: 1px solid #a2a2a2;
+    font-size: 0.8rem;
+    margin: 10px auto;
+    padding: 4px;
+    width: 94%;
+}
+.wrapper {
+    margin: 12px auto;
+    width: 99%;
+}
+.wrapper_1_div {
+    background-color: #fff;
+    border: 1px solid #a2a2a2;
+    height: auto;
+    margin: 15px auto;
+    overflow: hidden;
+    width: 97%;
+}
+.sjdd_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/sjdd.png") no-repeat scroll 0 0 / 100% 100%;
+    color: #fff;
+    font-size: 0.9rem;
+    height: 29px;
+    left: 1px;
+    line-height: 30px;
+    padding-left: 35px;
+    position: absolute;
+    top: 0;
+    width: 98px;
+}
+.sjdd_txt {
+    height: auto;
+    margin: 16px auto 8px 10px;
+    overflow: hidden;
+}
+.sjdd_txt li.time {
+    font-size: 0.8rem;
+    height: auto;
+    line-height: 25px;
+    list-style-position: inside;
+    overflow: hidden;
+    padding-left: 14px;
+    position: relative;
+    width: auto;
+}
+.time_pic {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/time.png") no-repeat scroll 0 0 / 100% auto;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 12px;
+}
+.sjdd_txt li.place {
+    float: left;
+    font-size: 0.8rem;
+    height: auto;
+    line-height: 25px;
+    list-style-position: inside;
+    min-height: 35px;
+    overflow: hidden;
+    padding-left: 14px;
+    position: relative;
+    width: 80%;
+}
+.place_pic {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/place.png") no-repeat scroll 0 0 / 100% auto;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 12px;
+}
+.map img {
+    height: 22px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 32px;
+}
+.tuan_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/tuan.png") no-repeat scroll 0 0 / 100% 100%;
+    color: #fff;
+    font-size: 0.9rem;
+    height: 29px;
+    left: 1px;
+    line-height: 30px;
+    padding-left: 35px;
+    position: absolute;
+    top: 0;
+    width: 98px;
+}
+.tuan_bg {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/six_circle.jpg") no-repeat scroll 0 0 / 100% auto;
+    height: auto;
+    margin: 20px auto 0;
+    min-height: 36px;
+    overflow: hidden;
+    width: 92%;
+}
+.tuan ul {
+    margin: 5px auto;
+    width: 96%;
+}
+ul.tuan_text.tuan_text {
+    height: auto;
+    overflow: hidden;
+    width: auto;
+}
+ul.tuan_text li {
+    float: left;
+    font-size: 0.7rem;
+    height: 25px;
+    text-align: center;
+    width: 16.6%;
+}
+.pinpai_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/pinpai.png") no-repeat scroll 0 0 / 100% 100%;
+    color: #fff;
+    font-size: 0.9rem;
+    height: 29px;
+    left: 1px;
+    line-height: 30px;
+    padding-left: 35px;
+    position: absolute;
+    top: 0;
+    width: 98px;
+}
+.show {
+    display: block !important;
+}
+.pinpai {
+    height: auto;
+    margin: 25px auto 0;
+    min-height: 100px;
+    overflow: hidden;
+    width: 96%;
+}
+.pinpai ul li {
+    float: left;
+    font-size: 0.8rem;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 6px;
+    text-align: center;
+    width: 25%;
+}
+.pinpai ul li div {
+    border: 1px solid #cfcdce;
+    cursor: pointer;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+    width: 85%;
+}
+.div_hover {
+    background-color: #f66e00;
+    border: 1px solid #e96b1e !important;
+    color: #fff !important;
+}
+.pinpai_shangjia span {
+    display: none;
+}
+.pinpai_shangjia {
+    background-color: #fcb0a3;
+    font-size: 0.8rem;
+    height: auto;
+    line-height: 20px;
+    margin: 6px auto 20px;
+    overflow: hidden;
+    padding-left: 2px;
+    width: 92%;
+}
+.djbz_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/djbz.png") no-repeat scroll 0 0 / 100% 100%;
+    color: #fff;
+    font-size: 0.9rem;
+    height: 29px;
+    left: 1px;
+    line-height: 30px;
+    padding-left: 35px;
+    position: absolute;
+    top: 0;
+    width: 98px;
+}
+.djbz {
+    height: auto;
+    margin: 16px auto 8px;
+    overflow: hidden;
+    width: 98%;
+}
+.djbz li {
+    color: #fff;
+    float: left;
+    height: 120px;
+    margin-bottom: 5px;
+    width: 33%;
+}
+.li1_div {
+    background: #ffc864 url("../images/tuan/orange.png") no-repeat scroll 0 6px / 30px 26px;
+    height: 70px;
+    margin: 0 auto;
+    width: 98%;
+}
+.li2_div {
+    background: #8fd5b9 url("../images/tuan/zheng.png") no-repeat scroll 0 6px / 30px 26px;
+    height: 70px;
+    margin: 0 auto;
+    width: 98%;
+}
+.li3_div {
+    background: #a3dea4 url("../images/tuan/green.png") no-repeat scroll 0 6px / 30px 26px;
+    height: 70px;
+    margin: 0 auto;
+    width: 98%;
+}
+.li4_div {
+    background: #ef8093 url("../images/tuan/pink.png") no-repeat scroll 0 6px / 30px 26px;
+    height: 70px;
+    margin: 0 auto;
+    width: 98%;
+}
+.li5_div {
+    background: #db92ee url("../images/tuan/purple.png") no-repeat scroll 0 6px / 30px 26px;
+    height: 70px;
+    margin: 0 auto;
+    width: 98%;
+}
+.li6_div {
+    background: #8b8af0 url("../images/tuan/blue.png") no-repeat scroll 0 6px / 30px 26px;
+    height: 70px;
+    margin: 0 auto;
+    width: 98%;
+}
+.li_b_title {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding-left: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+.li_s_title {
+    font-size: 0.6rem;
+    line-height: 14px;
+    margin-top: 4px;
+    text-align: center;
+}
+.guanxin_li {
+    font-size: 24px;
+    margin: 0 auto;
+    width: 96%;
+}
+.guanxin {
+    background-image: url("../images/tuan/line_xihuan.png");
+    background-size: 100% auto;
+    color: #a2a2a2;
+    font-size: 1rem;
+    height: 28px;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    width: 98%;
+}
+.up_circle {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/up_circle.png") no-repeat scroll 0 0 / 100% auto;
+    height: 30px;
+    margin: 0 auto;
+    width: 30px;
+}
+.con_add {
+    border: 1px solid #a2a2a2;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 98%;
+}
+.con_add ul {
+    height: auto;
+    margin-top: 6px;
+    overflow: hidden;
+}
+.con_add ul li {
+    background-color: #fcf0d8;
+    float: left;
+    height: auto;
+    margin: 0 1% 10px;
+    min-height: 160px;
+    overflow: hidden;
+    width: 31.3%;
+}
+.con_add ul li p.tj_pic {
+    height: 77px;
+    margin: 5px auto;
+    width: 90px;
+}
+.con_add ul li p.tj_txt {
+    margin: 0 auto;
+    width: 90px;
+}
+.con_add ul li img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.tj_txt_bottom {
+    color: #f00;
+    font-size: 0.6rem;
+    margin: 0 auto 15px;
+    text-align: left;
+}
+.guanxin_click {
+    background-color: #f66e00;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 35px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin: 10px auto 50px;
+    text-align: center;
+    width: 98%;
+}
+.rexian_fixed {
+    background: #fff url("../images/tuan/rexian.png") no-repeat scroll 0 3px / 100% auto;
+    color: #f66e00;
+    font-size: 0.6rem;
+    height: 30px;
+    line-height: 32px;
+    margin: 0 auto;
+    padding-left: 14px;
+    text-align: center;
+}
+.rexian_fixed a, .rexian a {
+    color: #f66e00 !important;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.rexian_li_fixed {
+    bottom: 0;
+    font-size: 0.6rem;
+    height: 30px;
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    width: 98% !important;
+    z-index: 999;
+}
+.index_lc_4 {
+    background-size: 100% auto;
+    height: auto;
+    margin: -30px auto 20px;
+    overflow: hidden;
+    padding-top: 10px;
+    text-align: center;
+    width: 320px;
+}
+.index_lc_4 span {
+    float: left;
+    width: 80px;
+}
+.index_lc_4 img {
+    display: inline;
+    max-height: 65px;
+    max-width: 81px;
+}
+.hd_txt p {
+    color: #444;
+    height: auto;
+    line-height: 20px;
+}
+.hd_more {
+    color: #444;
+    cursor: pointer;
+    float: right;
+    font-size: 0.8rem;
+    margin: 10px 0;
+    padding-right: 20px;
+}
+.part {
+    clear: both;
+    height: auto;
+    margin: 0 auto 16px;
+    min-height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 98%;
+}
+.part_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/index_list_title.png") no-repeat scroll 0 0 / 100% auto;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 45px;
+    left: 0;
+    line-height: 22px;
+    padding-left: 15px;
+    position: absolute;
+    top: 15px;
+    width: 110px;
+    z-index: 2;
+}
+.txt_left {
+    float: left;
+    width: 30px;
+}
+.txt_right {
+    float: left;
+    width: 180px;
+}
+.swipe {
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    visibility: hidden;
+}
+.wrap {
+    height: 160px;
+    margin: 0 auto;
+    width: 100%;
+}
+.wrap div {
+    height: 160px;
+    width: 100%;
+}
+.swipe-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.swipe-wrap > figure {
+    float: left;
+    height: 160px;
+    position: relative;
+    width: 100%;
+}
+figure, form, fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+page-swipe #slider figure {
+    display: block;
+}
+.page-swipe #slider figure div.wrap {
+    display: block;
+    height: 160px;
+    margin: 0 auto;
+    max-width: 640px;
+    position: relative;
+}
+.page-swipe #slider figure div.image {
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.85), 0 0 1px rgba(255, 255, 255, 0.35) inset;
+    display: block;
+    height: inherit;
+    margin: 0 10px;
+}
+.page-swipe nav {
+    margin: 7px auto 0;
+    max-width: 100%;
+    position: relative;
+    top: -30px;
+    z-index: 6;
+}
+.page-swipe nav #position {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.page-swipe nav #position li {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    margin: 0 2px;
+    width: 8px;
+}
+.page-swipe nav #position li.on {
+    background-color: #f26b00;
+    background-image: -moz-linear-gradient(center top , #f26b00, #f26b00);
+}
+.zlbz {
+    height: auto;
+    margin: 6px auto;
+    overflow: hidden;
+    text-align: center;
+    width: 96%;
+}
+.zlbz img {
+    margin: 6px auto;
+    overflow: hidden;
+    width: 100%;
+}
+.wzx_img {
+    height: 150px;
+    margin: 0 auto 10px;
+    width: 100%;
+}
+.wzx_img img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.wzx_all {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.wzx_txt {
+    color: #f66e00;
+    font-size: 1.1rem;
+    margin: 40px 0 0 15px;
+}
+.wzx_pic {
+    color: #222;
+    font-size: 0.9rem;
+    height: auto;
+    margin: 45px auto 12px;
+    overflow: hidden;
+    position: relative;
+    width: 96%;
+}
+.wzx_test {
+    border-top: 1px solid #e9e8e8;
+    float: left;
+    text-align: left;
+    width: 96%;
+}
+.wzx_test p {
+    float: left;
+    font-size: 0.75rem;
+    line-height: 18px;
+    margin-left: 2px;
+    margin-top: 8px;
+    width: 67%;
+}
+.wzx_test p:last-of-type {
+    float: right;
+    text-align: right;
+    width: 25%;
+}
+.wzx_test img {
+    height: 63px;
+    width: 90px;
+}
+.zxmt {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
+    color: #fff;
+    font-family: Microsoft YaHei;
+    font-size: 1rem;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    padding-left: 10px;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+}
+.zc_features {
+    height: auto;
+    margin: 15px auto;
+    overflow: hidden;
+    width: 95%;
+}
+.zc_features img {
+    width: 100%;
+}
+.zc_tip {
+    background-color: #fff;
+    border: 1px solid #a2a2a2;
+    height: auto;
+    margin: 15px auto 35px;
+    min-height: 175px;
+    overflow: hidden;
+    position: relative;
+    width: 97%;
+}
+.zc_tip_detail {
+    height: auto;
+    margin: 40px auto 10px;
+    overflow: hidden;
+    width: 98%;
+}
+.zc_tip_detail ul {
+    align-items: stretch;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+}
+.zc_tip_detail ul li {
+    background-color: #ebeaea;
+    border: 1px solid #d5d5d5;
+    float: left;
+    font-size: 0.8rem;
+    height: auto;
+    margin: 6px 3px;
+    min-height: 174px;
+    overflow: hidden;
+    width: 47%;
+}
+.zc_tip_detail ul li font {
+    color: #ee3219;
+    font-size: 1.3rem;
+}
+.part_title_zc {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/list_title1.png") no-repeat scroll 0 0 / 100% auto;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 32px;
+    left: 2px;
+    line-height: 26px;
+    padding-left: 15px;
+    position: absolute;
+    top: 25px;
+    width: 110px;
+    z-index: 2;
+}
+.zc_tip_detail img {
+    width: 100%;
+}
+.zc_padding {
+    padding-top: 30px;
+}
+.zxhd_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/list_title1.png") no-repeat scroll 0 0 / 100% auto;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 32px;
+    left: 0;
+    line-height: 26px;
+    padding-left: 15px;
+    position: absolute;
+    top: 25px;
+    width: 110px;
+    z-index: 2;
+}
+.zc_more {
+    color: #ee3219;
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding-right: 10px;
+    text-align: right;
+}
+.baoming {
+    margin: 0 auto;
+    width: 95%;
+}
+}
+@media (min-width: 481px) {
+body {
+    color: #444;
+    font: 12px/1.5 Microsoft YaHei,tahoma,arial,宋体,sans-serif;
+    overflow-x: hidden;
+}
+header {
+    background-color: #f66e00;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 640px;
+}
+header s {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+}
+header span {
+    color: #fff;
+    display: inline-block;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    z-index: 10;
+}
+header span img {
+    height: 40px;
+}
+.header_title {
+    padding-top: 10px;
+}
+section {
+    background-color: #e9e8e8;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 640px;
+}
+.banner {
+    margin: 4px auto;
+    text-align: center;
+    width: 98%;
+}
+.banner img {
+    max-height: 100%;
+    max-width: 100%;
+}
+section article {
+    color: #e63c45;
+}
+.bm_input input {
+    color: #999;
+    font-family: Microsoft YaHei;
+    font-size: 0.9rem;
+}
+.wrapper ul li {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.bm_input input {
+    border: 1px solid #999;
+    border-radius: 0;
+}
+.header_home {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/house.png") no-repeat scroll 0 0 / 100% auto;
+    height: 25px;
+    left: 4px;
+    top: 10px;
+    width: 30px;
+}
+.header_map {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/dingdian.jpg") no-repeat scroll 0 0 / 100% auto;
+    height: 30px;
+    left: 4px;
+    top: 6px;
+    width: 30px;
+}
+.header_list {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/list.png") no-repeat scroll 0 0 / 100% auto;
+    height: 25px;
+    right: 6px;
+    top: 10px;
+    width: 30px;
+}
+header span {
+    font-size: 1rem;
+}
+section article {
+    font-size: 1.1rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 640px;
+}
+.m_baoming {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 610px;
+}
+.bm_input {
+    float: left;
+    width: 80%;
+}
+.bm_input input {
+    font-size: 1.1rem;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    width: 98%;
+}
+.bm_button {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/submit_bm_zc.png") no-repeat scroll 0 0 / 100% 100%;
+    border: 0 none;
+    height: 70px;
+    margin: 8px auto auto 10px;
+    width: 84px;
+}
+.bm_benefits {
+    background-color: #fff;
+    border: 1px solid #a2a2a2;
+    font-size: 1.2rem;
+    margin: 30px auto 20px;
+    padding: 4px;
+    width: 620px;
+}
+.wrapper {
+    margin: 12px auto;
+    width: 640px;
+}
+.wrapper_1_div {
+    background-color: #fff;
+    border: 1px solid #a2a2a2;
+    height: auto;
+    margin: 30px auto 25px;
+    overflow: hidden;
+    width: 630px;
+}
+.sjdd_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/sjdd.png") no-repeat scroll 0 0;
+    color: #fff;
+    font-size: 1.4rem;
+    height: 60px;
+    left: 1px;
+    line-height: 58px;
+    padding-left: 75px;
+    position: absolute;
+    top: 0;
+    width: 262px;
+}
+.sjdd_txt {
+    height: auto;
+    margin: 36px auto 8px 10px;
+    overflow: hidden;
+}
+.sjdd_txt li.time {
+    font-size: 1.2rem;
+    height: auto;
+    line-height: 25px;
+    list-style-position: inside;
+    overflow: hidden;
+    padding-left: 24px;
+    position: relative;
+    width: auto;
+}
+.time_pic {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/time.png") no-repeat scroll 0 0 / 100% auto;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 20px;
+}
+.sjdd_txt li.place {
+    float: left;
+    font-size: 1.2rem;
+    height: auto;
+    line-height: 25px;
+    list-style-position: inside;
+    min-height: 35px;
+    overflow: hidden;
+    padding-left: 24px;
+    position: relative;
+    width: 80%;
+}
+.place_pic {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/place.png") no-repeat scroll 0 0 / 100% auto;
+    height: 23px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 20px;
+}
+.tuan_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/tuan.png") no-repeat scroll 0 0;
+    color: #fff;
+    font-size: 1.4rem;
+    height: 62px;
+    left: 1px;
+    line-height: 58px;
+    padding-left: 75px;
+    position: absolute;
+    top: 0;
+    width: 260px;
+}
+.tuan_bg {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/six_circle.jpg") no-repeat scroll 0 0;
+    height: auto;
+    margin: 40px auto 0;
+    min-height: 60px;
+    overflow: hidden;
+    width: 578px;
+}
+.tuan ul {
+    margin: 5px auto;
+    width: 96%;
+}
+ul.tuan_text li {
+    float: left;
+    font-size: 1rem;
+    height: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 103px;
+}
+.pinpai_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/pinpai.png") no-repeat scroll 0 0;
+    color: #fff;
+    font-size: 1.4rem;
+    height: 62px;
+    left: 1px;
+    line-height: 58px;
+    padding-left: 75px;
+    position: absolute;
+    top: 0;
+    width: 260px;
+}
+.show {
+    display: block !important;
+}
+.pinpai {
+    height: auto;
+    margin: 45px auto 0;
+    min-height: 100px;
+    overflow: hidden;
+    width: 96%;
+}
+.pinpai ul li {
+    float: left;
+    font-size: 1.2rem;
+    height: 48px;
+    line-height: 48px;
+    margin-bottom: 6px;
+    text-align: center;
+    width: 25%;
+}
+.pinpai ul li div {
+    border: 1px solid #cfcdce;
+    cursor: pointer;
+    height: 46px;
+    line-height: 46px;
+    margin: 0 auto;
+    width: 85%;
+}
+.div_hover {
+    background-color: #f66e00;
+    border: 1px solid #e96b1e !important;
+    color: #fff !important;
+}
+.pinpai_shangjia span {
+    display: none;
+}
+.pinpai_shangjia {
+    background-color: #fcb0a3;
+    font-size: 1rem;
+    height: auto;
+    line-height: 30px;
+    margin: 6px auto 20px;
+    overflow: hidden;
+    padding-left: 2px;
+    width: 92%;
+}
+.djbz_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/djbz.png") no-repeat scroll 0 0;
+    color: #fff;
+    font-size: 1.4rem;
+    height: 62px;
+    left: 1px;
+    line-height: 58px;
+    padding-left: 75px;
+    position: absolute;
+    top: 0;
+    width: 260px;
+}
+.djbz {
+    height: auto;
+    margin: 36px auto 8px;
+    overflow: hidden;
+    width: 98%;
+}
+.djbz li {
+    color: #fff;
+    float: left;
+    height: 120px;
+    margin-bottom: 5px;
+    width: 33%;
+}
+.li1_div {
+    background: #ffc864 url("../images/tuan/orange.png") no-repeat scroll 30px 6px;
+    height: 90px;
+    margin: 0 auto;
+    width: 96%;
+}
+.li2_div {
+    background: #8fd5b9 url("../images/tuan/zheng.png") no-repeat scroll 30px 6px;
+    height: 90px;
+    margin: 0 auto;
+    width: 96%;
+}
+.li3_div {
+    background: #a3dea4 url("../images/tuan/green.png") no-repeat scroll 30px 6px;
+    height: 90px;
+    margin: 0 auto;
+    width: 96%;
+}
+.li4_div {
+    background: #ef8093 url("../images/tuan/pink.png") no-repeat scroll 30px 6px;
+    height: 90px;
+    margin: 0 auto;
+    width: 96%;
+}
+.li5_div {
+    background: #db92ee url("../images/tuan/purple.png") no-repeat scroll 30px 6px;
+    height: 90px;
+    margin: 0 auto;
+    width: 96%;
+}
+.li6_div {
+    background: #8b8af0 url("../images/tuan/blue.png") no-repeat scroll 30px 6px;
+    height: 90px;
+    margin: 0 auto;
+    width: 96%;
+}
+.li_b_title {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding-left: 28px;
+    padding-top: 14px;
+    text-align: center;
+}
+.li_s_title {
+    font-size: 0.8rem;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+.guanxin_li {
+    font-size: 24px;
+    margin: 0 auto;
+    width: 96%;
+}
+.guanxin {
+    background-image: url("../images/tuan/line_xihuan.png");
+    background-position: 0 -10px;
+    color: #a2a2a2;
+    font-size: 1.4rem;
+    height: 28px;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    width: 98%;
+}
+.up_circle {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/up_circle.png") no-repeat scroll 0 0 / 100% auto;
+    height: 30px;
+    margin: 0 auto;
+    width: 30px;
+}
+.con_add {
+    border: 1px solid #a2a2a2;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 640px;
+}
+.con_add ul {
+    height: auto;
+    margin-top: 6px;
+    overflow: hidden;
+}
+.con_add ul li {
+    background-color: #fcf0d8;
+    float: left;
+    height: auto;
+    margin: 0 3px 10px;
+    min-height: 100px;
+    overflow: hidden;
+    width: 205px;
+}
+.con_add ul li p.tj_pic {
+    margin: 5px auto;
+    text-align: center;
+    width: 203px;
+}
+.con_add ul li p.tj_txt {
+    margin: 0 auto;
+    width: 170px;
+}
+.tj_txt_bottom {
+    color: #f00;
+    font-size: 0.6rem;
+    margin: 0 auto 15px;
+    text-align: left;
+}
+.guanxin_click {
+    background-color: #f66e00;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 40px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 10px auto 50px;
+    text-align: center;
+    width: 630px;
+}
+.rexian_fixed {
+    background: #fff url("../images/tuan/rexian.png") no-repeat scroll 0 6px / 100% auto;
+    color: #f66e00;
+    font-size: 1rem;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    padding-left: 250px;
+    padding-top: 6px;
+}
+.rexian_fixed a, .rexian a {
+    color: #f66e00 !important;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.rexian_li_fixed {
+    bottom: 0;
+    font-size: 1rem;
+    height: 40px;
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    width: 640px !important;
+    z-index: 999;
+}
+.index_lc_4 {
+    background-size: 100% auto;
+    height: auto;
+    margin: 5px auto 16px;
+    overflow: hidden;
+    text-align: center;
+    width: 600px;
+}
+.index_lc_4 span {
+    display: inline-block;
+    float: left;
+    height: 129px;
+    margin: 0;
+    width: 150px;
+}
+.index_lc_4 img {
+    border: 0 none;
+    display: inline;
+}
+.hd_more {
+    color: #444;
+    cursor: pointer;
+    float: right;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding-right: 20px;
+}
+.part {
+    clear: both;
+    height: auto;
+    margin: 0 auto 16px;
+    min-height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 640px;
+}
+.part_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/index_list_title.png") no-repeat scroll 0 0 / 100% auto;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    height: 50px;
+    left: 1px;
+    line-height: 48px;
+    padding-left: 15px;
+    position: absolute;
+    top: 15px;
+    width: 238px;
+    z-index: 2;
+}
+.part_div {
+    background-color: #fff;
+    border: 1px solid #b3b3b3;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 98%;
+}
+.zxhd-xc_top {
+    margin: 30px auto 0;
+}
+.zxhd_xc ul {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 600px;
+}
+.zxhd_xc ul li {
+    border-bottom: 1px solid #e9e8e8;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.zxhd_xc ul li a {
+    text-decoration: none;
+}
+.zxhd_xc_pic {
+    float: left;
+    text-align: left;
+    width: 160px;
+}
+.zxhd_xc_txt {
+    color: #222;
+    float: right;
+    font-size: 1.4rem;
+    width: 430px;
+}
+.txt_left {
+    float: left;
+    width: 50px;
+}
+.txt_right {
+    float: left;
+    width: 380px;
+}
+.swipe {
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    visibility: hidden;
+}
+.wrap {
+    height: 320px;
+    margin: 0 auto;
+    width: 640px;
+}
+.wrap div {
+    height: 320px;
+    width: 100%;
+}
+.swipe-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.swipe-wrap > figure {
+    float: left;
+    height: 320px;
+    position: relative;
+    width: 100%;
+}
+figure, form, fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+page-swipe #slider figure {
+    display: block;
+}
+.page-swipe #slider figure div.wrap {
+    display: block;
+    height: 320px;
+    margin: 0 auto;
+    max-width: 640px;
+    position: relative;
+}
+.wzx_img {
+    height: auto;
+    margin: 0 auto 10px;
+    width: 100%;
+}
+.wzx_all {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.wzx_txt {
+    color: #f66e00;
+    font-size: 1.1rem;
+    margin: 40px 0 0 15px;
+}
+.wzx_pic {
+    color: #222;
+    font-size: 0.9rem;
+    height: auto;
+    margin: 75px auto 12px;
+    overflow: hidden;
+    position: relative;
+    width: 600px;
+}
+.wzx_test {
+    border-top: 1px solid #e9e8e8;
+    float: left;
+    text-align: left;
+    width: 96%;
+}
+.wzx_test p {
+    float: left;
+    font-size: 1rem;
+    line-height: 20px;
+    margin-left: 2px;
+    margin-top: 18px;
+    width: 400px;
+}
+.wzx_test p:last-of-type {
+    float: right;
+    text-align: right;
+    width: 25%;
+}
+.zxmt {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
+    color: #fff;
+    font-family: Microsoft YaHei;
+    font-size: 1rem;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+    text-indent: 0.5em;
+    top: 180px;
+    width: 100%;
+}
+@media only screen and (max-width: 767px) {
+.page-swipe #slider figure div.wrap {
+    height: 320px;
+    margin-bottom: 5px;
+    max-width: 640px;
+}
+}
+.page-swipe #slider figure div.image {
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.85), 0 0 1px rgba(255, 255, 255, 0.35) inset;
+    display: block;
+    height: inherit;
+    margin: 0 10px;
+}
+.page-swipe nav {
+    margin: 7px auto 0;
+    max-width: 640px;
+    position: relative;
+    top: -40px;
+    z-index: 6;
+}
+.page-swipe nav #position {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.page-swipe nav #position li {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin: 0 2px;
+    width: 15px;
+}
+.page-swipe nav #position li.on {
+    background-color: #f26b00;
+    background-image: -moz-linear-gradient(center top , #f26b00, #f26b00);
+}
+.zlbz {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    width: 630px;
+}
+.zc_features {
+    height: auto;
+    margin: 30px auto 10px;
+    overflow: hidden;
+    text-align: center;
+    width: auto;
+}
+.zc_tip {
+    background-color: #fff;
+    border: 1px solid #a2a2a2;
+    height: auto;
+    margin: 18px auto 0;
+    min-height: 175px;
+    overflow: hidden;
+    position: relative;
+    width: 630px;
+}
+.zc_tip_detail {
+    height: auto;
+    margin: 80px auto 20px;
+    overflow: hidden;
+    width: 600px;
+}
+.zc_tip_detail ul {
+    align-items: stretch;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+}
+.zc_tip_detail ul li {
+    background-color: #ebeaea;
+    float: left;
+    font-size: 20px;
+    height: auto;
+    margin: 15px;
+    min-height: 305px;
+    overflow: hidden;
+    width: 267px;
+}
+.part_title_zc {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/index_list_title.png") no-repeat scroll 0 0 / 100% auto;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    height: 50px;
+    left: 1px;
+    line-height: 48px;
+    padding-left: 15px;
+    position: absolute;
+    top: 45px;
+    width: 238px;
+    z-index: 2;
+}
+.zc_padding {
+    padding-bottom: 16px;
+    padding-top: 36px;
+}
+.zxhd_title {
+    background: rgba(0, 0, 0, 0) url("../images/tuan/list_title1.png") no-repeat scroll 0 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    height: 47px;
+    left: 0;
+    line-height: 47px;
+    padding-left: 15px;
+    position: absolute;
+    top: 40px;
+    width: 186px;
+    z-index: 2;
+}
+.zc_more {
+    color: #ee3219;
+    cursor: pointer;
+    font-size: 30px;
+    padding-right: 10px;
+    text-align: right;
+}
+.zc_tip_detail ul li font {
+    color: #ee3219;
+    font-size: 36px;
+}
+}
+.tck {
+    background-color: #e9e8e8;
+    height: 1100px;
+    position: absolute;
+    right: -680px;
+    top: 0;
+    width: 220px;
+}
+.tck ul li a {
+    color: #444;
+    text-decoration: none;
+}
+.tck_head {
+    background-color: #f66e00;
+    height: 44px;
+    width: 240px;
+}
+.tck ul li {
+    border-bottom: 1px solid #b3b3b3;
+    color: #444;
+    font-size: 0.8rem;
+    height: 50px;
+    line-height: 50px;
+    width: 240px;
+}
+.tg_txt img {
+    height: 30px;
+    width: 30px;
+}
+.jt {
+    float: right;
+    margin-right: 70px;
+}
+.tg_txt {
+    float: left;
+    margin-left: 15px;
+}
+.cs {
+    background-color: #e9e8e8;
+    height: 1100px;
+    left: -900px;
+    position: absolute;
+    top: 0;
+    width: 270px;
+    z-index: 9;
+}
+.cs_head {
+    background-color: #f66e00;
+    height: 44px;
+    width: 270px;
+}
+.chengshi {
+    margin: 25px auto;
+    width: 270px;
+}
+.chengshi ul li {
+    color: #444;
+    cursor: pointer;
+    float: left;
+    font-size: 0.9rem;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 54px;
+}
+.chengshi a {
+    color: #444;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.li_hover, .li_hover a {
+    background-color: #f66e00;
+    color: #fff !important;
+}
