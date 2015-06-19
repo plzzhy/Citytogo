@@ -1,0 +1,46 @@
+<script type="text/javascript">
+// CKEDITOR.replace('TextArea1');
+
+
+function submitForm(action) {
+    $(".submit").click(function(){
+        if ("" == $.trim($("#tuangou_title").val())) {
+            popup.error("团购标题不能为空");
+            return false;
+        } else if ("" == $.trim($("#tuangou_largetitle").val())) {
+            popup.error("团购大标题不能为空");
+            return false;
+        } else if ("" == $.trim($("#tuangou_time").val())) {
+            popup.error("团购时间不能为空");
+            return false;
+        } else if ("" == $.trim($("#tuangou_address").val())) {
+            popup.error("团购地址不能为空");
+            return false;
+        } else if (action=='create'&&""==$.trim($("#tuangou_city").val())) {
+            popup.error("请选择团购城市");
+            return false;
+        }
+
+        var url = ('create' == action) ? "{:U('Tuangou/create')}" : "{:U('Tuangou/update')}";
+        var textarea1 = CKEDITOR.instances.TextArea1.getData();
+        var textarea2 = CKEDITOR.instances.TextArea2.getData();
+        var textarea3 = CKEDITOR.instances.TextArea3.getData();
+        var textarea4 = CKEDITOR.instances.TextArea4.getData();
+        $("#TextArea1").val(textarea1);
+        $("#TextArea2").val(textarea2);
+        $("#TextArea3").val(textarea3);
+        $("#TextArea4").val(textarea4);
+        commonAjaxSubmit(url);
+        return false;
+    });
+}
+
+$(function(){
+    $("#check_title_name").click(function(){
+        alert('aa');
+        $.getJSON("{:U('Tuangou/checkTuangouTitle', array('id' => $tuangou['id']))}", { tuangou_title: $("#tuangou_title").val() }, function(json){
+            $("#check_title_name").css("color",json.status==1?"#0f0":"#f00").html(json.info);
+        });
+    });
+});
+</script>
